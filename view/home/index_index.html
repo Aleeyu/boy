@@ -9,57 +9,13 @@
     <!-- Bootstrap -->
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_6hbk71v5hcwhfr.css">
-    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_twdkp9jjsz66flxr.css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/index.css">
     <!--[if lt IE 9]>
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        html,body{
-            height: 100%;
-        }
-        .warp{
-            height: 100%;
-        }
-        .form-group{
-            margin-bottom: 0;
-        }
-        .bannerpic{
-            width: 100%;
-            height: 200px !important;
-        }
-        .footitem{
-            width: 20%;
-            float:left;
-            text-align: center;
-        }
-        .fixed-bottom{
-            position: fixed;
-            width: 100%;
-           bottom: 0px;
-        }
-        .itemhead>div{
-            float:left;
-        }
-        .piclistbox>li{
-            float: left;
-        }
-        .piclistbox>li+li{
-            margin-left:10px;
-        }
-        .piclistbox>li>img{
-            width: 200px;
-        }
-        .piclist{
-            overflow-x: scroll;
-        }
-    </style>
 </head>
 <body>
     <div class=" warp">
@@ -74,7 +30,7 @@
             </div>
         </div>
         <!--banner-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top: 46px">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -100,40 +56,152 @@
         </div>
         <!--hotlist-->
         <div class="hotlist">
-            <div class="list item">
+            <div class="listitem">
                 <div class="itemhead clearfix">
                     <div class="itempic">
-                        <img src="/static/img/banner/3.jpg" alt="" style="max-width: 50px;">
+                        <img src="/static/img/banner/3.jpg" alt="" class="itemheadpic">
                     </div>
                     <div class="itemtitle">
-                        <h3>用户名<i class="iconfont icon-category"></i></h3>
-                        <h4>18分钟前来过</h4>
+                        <h4>用户名<i class="iconfont icon-tubiaozongjie25"></i></h4>
+                        <h6>18分钟前来过</h6>
                     </div>
-                    <div class="money">
-                        ￥700
-                    </div>
+                    <div class="money"><span><i>￥</i>700</span></div>
                 </div>
                 <div class="piclist">
                     <ul class="clearfix piclistbox">
-                        <li><img src="/static/img/banner/3.jpg" alt=""></li>
-                        <li><img src="/static/img/banner/3.jpg" alt=""></li>
-                        <li><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
                     </ul>
+                </div>
+                <div class="itemintro">
+                    <p>这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍</p>
+                </div>
+                <div class="itemmsg">
+                    <p class="msg-host">主人最新回复：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                    <p class="msg-cus">客户最新资讯：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                </div>
+                <div class="addr">
+                    <hr>
+                    <p class="clearfix addrinfo"><a href="">来自上海</a><span class="rt">点赞21.留言17</span></p>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="itemhead clearfix">
+                    <div class="itempic">
+                        <img src="/static/img/banner/3.jpg" alt="" class="itemheadpic">
+                    </div>
+                    <div class="itemtitle">
+                        <h4>用户名<i class="iconfont icon-tubiaozongjie25"></i></h4>
+                        <h6>18分钟前来过</h6>
+                    </div>
+                    <div class="money"><span><i>￥</i>700</span></div>
+                </div>
+                <div class="piclist">
+                    <ul class="clearfix piclistbox">
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="itemintro">
+                    <p>这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍</p>
+                </div>
+                <div class="itemmsg">
+                    <p class="msg-host">主人最新回复：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                    <p class="msg-cus">客户最新资讯：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                </div>
+                <div class="addr">
+                    <hr>
+                    <p class="clearfix addrinfo"><a href="">来自上海</a><span class="rt">点赞21.留言17</span></p>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="itemhead clearfix">
+                    <div class="itempic">
+                        <img src="/static/img/banner/3.jpg" alt="" class="itemheadpic">
+                    </div>
+                    <div class="itemtitle">
+                        <h4>用户名<i class="iconfont icon-tubiaozongjie25"></i></h4>
+                        <h6>18分钟前来过</h6>
+                    </div>
+                    <div class="money"><span><i>￥</i>700</span></div>
+                </div>
+                <div class="piclist">
+                    <ul class="clearfix piclistbox">
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="itemintro">
+                    <p>这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍</p>
+                </div>
+                <div class="itemmsg">
+                    <p class="msg-host">主人最新回复：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                    <p class="msg-cus">客户最新资讯：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                </div>
+                <div class="addr">
+                    <hr>
+                    <p class="clearfix addrinfo"><a href="">来自上海</a><span class="rt">点赞21.留言17</span></p>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="itemhead clearfix">
+                    <div class="itempic">
+                        <img src="/static/img/banner/3.jpg" alt="" class="itemheadpic">
+                    </div>
+                    <div class="itemtitle">
+                        <h4>用户名<i class="iconfont icon-tubiaozongjie25"></i></h4>
+                        <h6>18分钟前来过</h6>
+                    </div>
+                    <div class="money"><span><i>￥</i>700</span></div>
+                </div>
+                <div class="piclist">
+                    <ul class="clearfix piclistbox">
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                        <li class="list-ul-item"><img src="/static/img/banner/3.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="itemintro">
+                    <p>这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍这是商品介绍</p>
+                </div>
+                <div class="itemmsg">
+                    <p class="msg-host">主人最新回复：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                    <p class="msg-cus">客户最新资讯：<span>主人回复阿斯达是大势阿萨德阿萨德</span></p>
+                </div>
+                <div class="addr">
+                    <hr>
+                    <p class="clearfix addrinfo"><a href="">来自上海</a><span class="rt">点赞21.留言17</span></p>
                 </div>
             </div>
         </div>
         <!--底部菜单-->
         <div class="foot clearfix fixed-bottom">
-            <div class="footitem"><i class="iconfont icon-shouye"></i></br>首页</div>
-            <div class="footitem"><i class="iconfont icon-wodedingdan"></i></br>池塘</div>
-            <div class="footitem"><i class="iconfont icon-yijianfankui"></i></br>发布</div>
-            <div class="footitem"><i class="iconfont icon-wodefankui"></i></br>消息</div>
-            <div class="footitem"><i class="iconfont icon-wodejuhuasuan"></i></br>我的</div>
+            <div class="footitem"><i class="iconfont icon-shouye"></i></br><span>首页</span></div>
+            <div class="footitem"><i class="iconfont icon-wodedingdan"></i></br><span>池塘</span></div>
+            <div class="footitem"><i class="iconfont icon-yijianfankui"></i></br><span>发布</span></div>
+            <div class="footitem"><i class="iconfont icon-wodefankui"></i></br><span>消息</span></div>
+            <div class="footitem"><i class="iconfont icon-wodejuhuasuan"></i></br><span>我的</span></div>
         </div>
     </div>
 
 
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/static/js/index.js"></script>
 </body>
 </html>
