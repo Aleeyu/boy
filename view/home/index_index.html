@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_twdkp9jjsz66flxr.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_ezjm9u5sl4wbfbt9.css">
     <link rel="stylesheet" href="/static/css/normalize.css">
     <link rel="stylesheet" href="/static/css/index.css">
     <!--[if lt IE 9]>
@@ -18,6 +18,13 @@
     <![endif]-->
 </head>
 <body>
+    <div class="pop" style="display: none">
+        <div class="disn item items firpz" ><i class="iconfont icon-xiangji1"></i></br><span>拍照</span></div>
+        <div class="disn item items  firxc" ><i class="iconfont icon-xiangce1"></i></br><span>相册</span></div>
+        <div class="disn item zm firzm" ><i class="iconfont icon-qukuanji"></i></br><span>转卖</span></div>
+        <div class="disn item items fircg sed" ><i class="iconfont icon-my-caogao-copy"></i></br><span>从草稿发布</span></div>
+        <div class=" item items qx" ><i class="iconfont icon-delete"></i></div>
+    </div>
     <div class=" warp">
         <!--头部搜索和菜单-->
         <div class="head">
@@ -193,8 +200,8 @@
         <div class="foot clearfix fixed-bottom">
             <div class="footitem"><i class="iconfont icon-shouye"></i></br><span>首页</span></div>
             <div class="footitem"><i class="iconfont icon-wodedingdan"></i></br><span>池塘</span></div>
-            <div class="footitem"><i class="iconfont icon-yijianfankui"></i></br><span>发布</span></div>
-            <div class="footitem"><i class="iconfont icon-wodefankui"></i></br><span>消息</span></div>
+            <div class="footitem" id="fb"><i class="iconfont icon-yijianfankui"></i></br><span>发布</span></div>
+            <div class="footitem"><a href="/home/index/msglist.html"><i class="iconfont icon-wodefankui"></i></br><span>消息</span></a></div>
             <div class="footitem"><i class="iconfont icon-wodejuhuasuan"></i></br><span>我的</span></div>
         </div>
     </div>
