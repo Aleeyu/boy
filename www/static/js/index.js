@@ -20,3 +20,7 @@ $("#fb").click(function(){
     $(".firzm").addClass("zmm")
     $(".fircg").addClass("cg")
 })
+
+$("#lei").click(function(){
+    window.location.href="/home/index/lei.html"
+})
